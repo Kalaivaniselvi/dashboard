@@ -1,0 +1,73 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  #form {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+ 
+  th{
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #topic{
+    margin-left: 400px;
+  }
+  #button1:hover{
+    background-color: rgb(2, 139, 55);
+    color: aliceblue;
+  }
+  #button1{
+    padding: 9px;
+    margin-left: 100px;
+    margin-top: 9px;
+    border-radius: 5px;
+  }
+  #button3:hover{
+    background-color: rgb(2, 139, 55);
+    color: aliceblue;
+  }
+  #button3{
+    padding: 6px;
+    margin-left: 20px;
+    margin-top: 4px;
+    border-radius: 5px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+
+
+tr:nth-child(even) {
+  background-color:rgb(227, 239, 244);
+}
+#trash{
+  border: none;
+  color: red;
+  font-size: 18px;
+  margin-top: 6px;
+}
+#edit1{
+  font-size: 18px;
+  padding: 9px;
+  color: rgb(52, 120, 172);
+}
+#assign{
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+#assign input{
+  padding: 1px;
+  width: 200px;
+}

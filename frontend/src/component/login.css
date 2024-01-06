@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+  #box{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-blue-minimalist-technology-computer-banner-image_178469.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 584px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #form {
+    display: inline-block;
+  }
+  
+  #page {
+    padding: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: -200px;
+  }
+  
+  .input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    margin-left: -200px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -300px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .collect {
+    margin-top: 16px;
+    color: #333;
+  }
+  h3{
+    margin-left: -200px;
+    padding: 20px;
+  }
